@@ -1,0 +1,515 @@
+/*media-query = 375px*/
+@media (min-width:375px) {
+    .card_curiosidades{
+        width: 80%;
+    }
+
+    footer{
+        height: 200px;
+    }
+
+    .imagem_linkedin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_github{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_linkedin > img{
+        width: 70%;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .imagem_github > img{
+        width: 70%;
+        height: 80px;
+        border-radius: 50%;
+    }
+}
+
+/*media-query = 425px*/
+@media (min-width:425px) {
+    .card_curiosidades{
+        width: 75%;
+    }
+
+    footer{
+        height: 200px;
+    }
+
+    .imagem_linkedin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_github{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video_atracoes > iframe {
+        width: 90%;
+    }
+
+    .imagem_linkedin > img{
+        width: 65%;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .imagem_github > img{
+        width: 65%;
+        height: 80px;
+        border-radius: 50%;
+    }
+}
+
+/*media-query = 768px*/
+@media (min-width:768px) {
+    header{
+        max-width: 100%;
+        height: 360px;
+        background-image: url("../img/Banner2.png");
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 30%;
+        height: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .logo > .img_logo{
+        width: 100%;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .img_logo > img {
+        width: 40%;
+        margin-left: 20px;
+    }
+    .bandeira{
+        width: 30%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .bandeira > .img_logo{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .img_bandeira > img {
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    nav{
+        width: 70%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    nav > ul {
+        width: 90%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-right: 30px;
+    }
+
+    .elemento {
+        position: fixed;
+        bottom: 25px;
+        right: 35px;
+        border-radius: 10%;
+        box-shadow: 1px 1px 4px #08a336;
+    }
+
+    .material-symbols-outlined {
+        padding: 15px;
+        background-color: #18e756;
+        color: #ffffff;
+        border-radius: 10%;
+    }
+
+    main{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .banner_principal {
+        max-width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner_principal > img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .curiosidades {
+        height: 1160px;
+    }
+
+    .titulo_curiosidades {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .card_curiosidades{
+        width: 80%;
+        height: 350px;
+    }
+    .texto_card{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .texto_card > p {
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .card_curiosidades > .saiba_mais {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .saiba_mais > a {
+        padding: 10px 20px;
+    }
+
+    .titulo_video {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .titulo_video > h4 {
+        font-size: 1.2rem;
+    }
+
+    .video{
+        height: 800px;
+    }
+
+    .video_atracoes{
+        width: 100%;
+        height: 750px;
+    }
+
+    .video_atracoes > iframe {
+        width: 80%;
+        height: 220px;
+    }
+
+    footer{
+        background-color: #08a337;
+        height: 150px;
+    }
+
+    .sobre_redes {
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .linkedin{
+        width: 30%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_linkedin{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .github{
+        width: 30%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_github{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_linkedin > img{
+        width: 25%;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .imagem_github > img{
+        width: 25%;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .copy{
+        height: 20px;
+    }
+
+    .copy > small{
+        margin-bottom: 10px;
+    }
+
+}
+
+/*media-query = 1024px*/
+@media (min-width:1024px) {
+    header{
+        width: 100%;
+        height: 360px;
+        position: fixed;
+        background-image: url("../img/Banner2.png");
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 50%;
+        height: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .logo > .img_logo{
+        width: 100%;
+        height: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .img_logo > img {
+        width: 22%;   
+        object-fit: cover;
+    }
+
+    nav{
+        width: 70%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    nav > ul {
+        width: 90%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-right: 30px;
+    }
+
+    nav > ul > li > a {
+        font-size: 1.1rem;
+    }
+
+    .elemento {
+        display: none;
+    }
+
+    .banner_principal {
+        max-width: 100%;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .banner_principal > img {
+        max-width: 91%;
+        height: 350px;
+        border-radius: 5px;
+        box-shadow: 2px 1px 8px #08a337;
+    }
+
+    .curiosidades {
+        width: 100%;
+        height: 560px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_curiosidades {
+        width: 94%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+    .titulo_curiosidades > h4 {
+        font-size: 1.3rem;
+    }
+    .banner_curiosidades{
+        width: 100%;
+        height: 510px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card_curiosidades{
+        width: 29%;
+        height: 460px;
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem_card{
+        height: 190px;
+    }
+    .imagem_card > img {
+        height: 190px;
+    }
+    .texto_card{
+        width: 90%;
+        height: 210px;
+        display: flex;
+        align-items: center;
+    }
+    .texto_card > p {
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .card_curiosidades > .saiba_mais {
+        height: 50px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+    .video{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_video {
+        width: 94%;
+        height: 100px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+    .titulo_video > h4 {
+        font-size: 1.3rem;
+    }
+
+    .video_atracoes{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .video_atracoes > iframe {
+        width: 28%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    footer{
+        background-color: #08a337;
+        height: 180px;
+    }
+
+    .sobre_redes {
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .linkedin{
+        width: 30%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_linkedin{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .github{
+        width: 30%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_github{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem_linkedin > img{
+        width: 25%;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .imagem_github > img{
+        width: 25%;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .copy{
+        height: 20px;
+    }
+
+    .copy > small{
+        margin-bottom: 10px;
+    }
+
+}
+

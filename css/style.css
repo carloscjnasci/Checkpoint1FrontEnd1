@@ -1,0 +1,387 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+
+header {
+    background-image: url("../img/Banner2.png");
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:#000000; 
+    text-align: center;
+
+}    
+
+.logo > img {
+    
+    width: 100%;
+    height: 90px;
+    margin-top: 15%;    
+}
+
+.botao{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0px 0px 0px;
+    background-color: #717171;
+    font-size: .9em;
+    border-radius: 10px;
+}
+
+/* Navegação */
+
+nav {
+
+    flex-direction: column;
+}
+
+nav a {
+
+    min-width: 150px; 
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.6);
+}
+
+nav h1 {
+    color: #000000;
+    }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    width: 100%;
+    padding: 35px 15px 100px 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    font-family:'Lato', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/*section curiosidade*/
+
+.curiosidades {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_curiosidades {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_curiosidades>h3 {
+    color: #01250f;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.banner_curiosidades {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    gap: 20px;
+}
+
+.card_curiosidades {
+    width: 100%;
+    height: 450px;
+    background-color: #ececec;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem_card {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.imagem_card>img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.texto_card {
+    width: 95%;
+    height: 180px;
+    display: flex;
+    padding: 135px 0px 100px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.saiba_mais {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.saiba_mais>a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #bcbcbc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.saiba_mais>a:hover {
+    transition: 1s;
+    background-color: #a0d1ff;
+}
+
+/*section curiosidade2*/
+
+.curiosidades2 {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_curiosidades2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo_curiosidades2>h3 {
+    color: #01250f;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.banner_curiosidades2 {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    gap: 20px;
+}
+
+.card_curiosidades2 {
+    width: 100%;
+    height: 550px;
+    background-color: #ececec;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem_card2 {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.imagem_card2>img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.texto_card2 {
+    width: 95%;
+    height: 180px;
+    display: flex;
+    padding: 135px 0px 220px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.saiba_mais2 {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.saiba_mais2>a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #bcbcbc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.saiba_mais2>a:hover {
+    transition: 1s;
+    background-color: #a0d1ff;
+}
+
+/*Fotos*/
+
+.boxfotos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Fotos>h2 {
+    padding: 70px 0px 10px 0px;
+}
+
+.snip1361 {
+    font-family: 'Quattrocento', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 250px;
+    max-width: 335px;
+    width: 100%;
+    color: #141414;
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 16px;
+  } 
+  .snip1361 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1361 img {
+    max-width: 100%;
+  }
+  .snip1361 figcaption {
+    position: absolute;
+    top: calc(81%);
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 0px 65px;
+  }
+  .snip1361 figcaption:before {
+    position: absolute;
+    content: '';
+    z-index: 2;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+    background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+  }
+  .snip1361 h3,
+  .snip1361 p {
+    margin: 0 0 10px;
+  }
+  .snip1361 h3 {
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    font-family: 'Oswald', Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  .snip1361 p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+  }
+
+  .snip1361:hover figcaption,
+  .snip1361.hover figcaption {
+    top: 80px;
+  }
+  
+  
+/*Vídeos*/
+
+.boxvideo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 1em 0;
+    font-family: sans-serif;
+  }
+  
+  p {
+    text-align: center;
+    margin: 1em 0;
+    font-family: sans-serif;
+  }
+
+footer img{
+    width: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #a0d1ff;
+    margin-top: 20px;
+}
+  
+
+  
